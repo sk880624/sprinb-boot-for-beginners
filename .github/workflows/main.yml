@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-deploy:
-    name: Build and Deploy Spring Boot Application
+    name: Build Spring Boot Application
     runs-on: ubuntu-latest
 
     steps:
