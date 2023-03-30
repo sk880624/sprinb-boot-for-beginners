@@ -8,7 +8,9 @@ on:
 jobs:
   build-deploy:
     name: Build Spring Boot Application
-    runs-on: ubuntu-latest
+    runs-on:
+      - self-hosted
+      - learning
 
     steps:
       - name: Checkout Code
