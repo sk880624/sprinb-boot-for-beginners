@@ -9,8 +9,7 @@ jobs:
   build-deploy:
     name: Build Spring Boot Application
     runs-on:
-      - self-hosted
-      - learning
+      - ubuntu-latest
 
     steps:
       - name: Checkout Code
